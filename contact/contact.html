@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+      <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap">
+    <title>Digitalia - À propos de nous</title>
+    <meta name="description" content="Digitalia, votre boutique en ligne dédiée au monde numérique" />
+    <meta name="author" content="Digitalia" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digitalia - About Us</title>
+    <!--icon nav-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Google Font -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <!--link css-->
+    <link rel="stylesheet" href="contact.css"/>
+  </head>
+  <body>
+  <!--navbar-->
+  <header class="header" id="welcomeHeader">    
+                <img src="logoedited.png" class="Logo" style=" width:150px ;height: 150px;">
+                <div id="menu-icon" class="bx bx-menu"></div>
+                <ul class="nav" style="width: 480px;" id="nav">
+                    <li id="styleBtn"><a href="../Acceuil/Acceuil.html" class="list">Home</a></li>
+                    <li id="styleBtn"><a href="../About/about.html" class="list">About Us</a></li>
+                    <li class="panier"><img src="editedpanier.png" style="width: 40px;height: 35px;" class="logopanier"><i class='bx bx-chevron-down'  id="toggle-cart" style="cursor: pointer;color: white !important;"></i> </li>
+                    <li id="styleBtn"><a href="#Avis" class="list">Avis</a></li>
+                    <li id="styleBtn"><a href="../contact/contact.css" class="list">Contact Us</a></li>
+                </ul>
+    </header>
+  <!--Panier-->
+    <div class="MenuPanier" id="MenuPanier">
+      <h1>Panier</h1>
+    </div>
+
+  <!-- SECTION CONTACT -->
+  <main class="main-content">
+    <div class="contact-section">
+      <div class="container">
+        <div class="contact-header">
+          <h1 class="contact-title">Contact us</h1>
+          <p class="contact-description">Ou contactez-nous manuellement à <a href="mailto:hello1Digitalia@gmail.com">hello1Digitalia@gmail.com</a></p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-form-container">
+            <form action="https://formsubmit.co/hello1Digitalia@gmail.com" method="POST" class="contact-form">
+                <!-- Anti-spam -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="Nouveau message de votre site !">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/contact/contact.html">
+                
+                <div class="form-group">
+                  <label for="name">Nom et prénom</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Adresse e-mail</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Envoyer</button>
+            </form>
+
+          </div>
+          <div class="map-container">
+            <iframe
+                class="map-iframe"
+                src="https://www.google.com/maps?q=CC66+7VX,+Agadir,+Maroc&output=embed"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="info-sections">
+          <div class="info-section">
+            <div class="info-icon">📍</div>
+            <h3>Trouvez-nous ici</h3>
+            <p>CC66+7VX, Agadir 80000</p>
+          </div>
+          <div class="info-section">
+            <div class="info-icon">📱</div>
+            <h3>Contactez-nous</h3>
+            <p>📞 05 28518752</p>
+            <p>📸 Digitalia_1</p>
+          </div>
+          <div class="info-section">
+            <div class="info-icon">🕐</div>
+            <h3>Horaires d'ouverture</h3>
+            <p>Lundi-Samedi de 8h à 22h</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER  -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="/images/Logo6.png" alt="Logo" class="footer-logo-image" />
+      </div>
+      <p class="copyright">© 2025 Digitalia. Tous droits réservés.</p>
+    </div>
+  </footer>
+  
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<script src="contact.js"></script>
+</body>
+</html>
