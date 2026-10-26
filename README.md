@@ -1,5 +1,5 @@
 # Digitalia - Store Électronique 🛒
-
+Soufiane Project
 ## 📚 Projet de Formation - Store Électronique
 
 Bienvenue dans le projet **Digitalia** ! Ce projet est conçu pour vous apprendre à développer un store électronique complet en utilisant **HTML, CSS et JavaScript vanilla**.
