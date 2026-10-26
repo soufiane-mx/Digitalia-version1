@@ -27,7 +27,6 @@ section .contenu{
 }
 #welcomeHeader{
     width: 100%;
-    max-width: 1355px;
     height: 70px;
     display: flex;
     align-items: center;
@@ -764,5 +763,3 @@ button {
         margin-left: 60px;
     }
 }   
-
-

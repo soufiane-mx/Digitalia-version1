@@ -19,8 +19,8 @@ body {
 /*Navbar*/
 #welcomeHeader{
     width: 100%;
-    max-width: 1355px;
     height: 70px;
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,6 +64,7 @@ body {
   display: none;
   font-size: 2.5rem;
   cursor: pointer;
+  color: #ffffff;
 }
 .MenuPanier{
     display: none;
@@ -447,7 +448,7 @@ textarea {
     }
     #menu-icon {
     display: block;
-    color: #000000;
+    color: #ffffff;
     }
     .MenuPanier.active{
         top: 260px;

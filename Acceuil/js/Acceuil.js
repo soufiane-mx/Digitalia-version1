@@ -67,12 +67,14 @@ window.addEventListener('scroll',()=>{
     if (window.scrollY > 0) {
     header.classList.add('scrollednav');
     navicon.classList.add('scrolledlist');
+    menuIcon.classList.add('scrolledlist');
     imgnav.src = "assets/logoedited.png";
     logopanier.src = "assets/editedpanier.png";
   } 
   else {
     header.classList.remove('scrollednav');
     navicon.classList.remove('scrolledlist');
+    menuIcon.classList.remove('scrolledlist');
     imgnav.src = "assets/LogoDigitalia-removebg-preview.png";  
     logopanier.src = "assets/panierNavImage.png";
   }
@@ -82,8 +84,3 @@ window.addEventListener('scroll',()=>{
     a.classList.toggle('scrolledlist', window.scrollY > 0);
   });
 });
-
-
-
-
-
